@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  font-family: public sans;
+  font-size: 15px;
+  line-height: 30px;
+  background-color: #fefefe;
+  color: #000D1A;
+  margin: 0 50px 500px 50px;
+}
+
+caption {
+  font-size: 20px;
+  font-weight: bold;
+  color: #70879f;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  border-color: #70879f;
+  box-shadow: 5px 10px #70879f;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 2%;
+}
+
+tr,
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+a {
+  color: blue;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.crumbs ol {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 37%;
+}
+
+.crumb {
+  display: inline-block;
+  font-size: 1rem;
+  color: orange;
+  margin-bottom: 0;
+}
